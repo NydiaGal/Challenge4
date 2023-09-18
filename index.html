@@ -9,6 +9,17 @@
 
 <body>
   <h1 style="text-align:center;">Easiest Quiz EVER! </h1>
+  <p>Question: <span id="question">What is HTML?</span></p>
+  <ul>
+    <li><button id="option1">Hypertext Markup Language</button></li>
+    <li><button id="option2">Cascading Style Sheet</button></li>
+    <li><button id="option3">JavaScript</button></li>
+  </ul>
+  <p>Time Left: <span id="timer">15</span> seconds</p>
+  <p>Wins: <span id="winCounter">0</span></p>
+  <p>Losses: <span id="lossCounter">0</span></p>
+  <button id="startButton" onclick="initiateGame()">Start</button>
+
   <script src= "script.js"></script>
 </body>
 </html>
