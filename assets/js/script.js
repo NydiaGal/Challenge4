@@ -1,15 +1,36 @@
-// Creating an object representing a car
-var car = {
-    make: "Toyota",
-    model: "Camry",
-    year: 2022,
-    start: function() {
-      console.log("The car is starting...");
-    },
-    drive: function() {
-      console.log("The car is now driving.");
-    },
-    stop: function() {
-      console.log("The car has stopped.");
+
+
+function initiategame () {
+  isWin = false;
+  timerCount = 15;
+  startButton.disabled = true;
+  renderBlanks();
+  startTimer();
+}
+function losegame() {
+  wordBlank.textContent - "You're a WINNER!";
+  winCounter++;
+  startButton.disabled = false;
+  setWins();
+}
+function wingame() {
+  workBlank.textContent = "The game is OVER! Keep Trying!"
+  loserCounter++;
+  startButton = false;
+  setLosses();
+}
+
+function startTimer() {
+  timerCount--;
+  timerElement.textContent = timerCount;
+  if (timerCount >= 0) {
+    if (isWin && timerCount > 0) {
+        clearInterval(timer);
+        wingame();
     }
-  };
+  }
+
+  if (timerCount === 0) {
+    clearInterval(timer);
+    losegame();
+  }}, 1000);
