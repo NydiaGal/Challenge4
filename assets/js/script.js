@@ -2,10 +2,11 @@ var isWin = false;
 var timerCount = 15;
 var winCounter = 0;
 var lossCounter = 0;
-var currentQuestion = 0;
+var currentQuestionIndex = 0;
 var timer;
+var score = 0;
 
-var question = [
+var questions = [
   { question: "What does CSS stand for?",
     options: ["Common Style Syntax", "Cosmetic Syntax Slides", "Cascading Style Sheets"]
     answer:["Cascading Style Sheets"]} 
@@ -53,4 +54,3 @@ function startTimer() {
   }}, 1000);
 
 //how to validate answers
-
