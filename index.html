@@ -9,13 +9,17 @@
 
 <body>
   <h1 style="text-align:center;">Easiest Quiz EVER! </h1>
-  <div id="question-container">
-      <h2 style="text-align:center;">Question"
+  <div id="question-options">
+      <h2 style="text-align:center;">Question</h2>
+      <div id="options"></div>
+  </div>
 
+  <button id="startButton" onclick="initiateGame()">Start</button>
+  
   <p>Time Left: <span id="timer">15</span> seconds</p>
   <p>Wins: <span id="winCounter">0</span></p>
   <p>Losses: <span id="lossCounter">0</span></p>
-  <button id="startButton" onclick="initiateGame()">Start</button>
+
 
   <script src= "script.js"></script>
 </body>
