@@ -51,6 +51,6 @@ function startTimer() {
   if (timerCount === 0) {
     clearInterval(timer);
     losegame();
-  }}, 1000);
+  }} 1000;
 
 //how to validate answers

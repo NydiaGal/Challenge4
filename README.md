@@ -1,4 +1,5 @@
-# Challenge4
+// My homework is partially completed.  
+
 //timed quiz
     //Timer Intervals
 //use JavaScript fundamentals
