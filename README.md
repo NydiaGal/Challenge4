@@ -1,21 +1,13 @@
+# Task - Timed Quiz
 // My homework is partially completed.  
 
-//timed quiz
-    //Timer Intervals
-//use JavaScript fundamentals
-//stores high scores
-    //Local Storage
-//click the start button
-    //Keydown prompt
-//timer starts and
-    //Timer Intervals
-//presented with a question
-    //Prompt 
-//WHEN I answer a question
-    //variable
-//THEN I am presented with another question
-//WHEN I answer a question incorrectly
-//THEN time is subtracted from the clock
-//WHEN all questions are answered or the timer reaches 0
-//THEN the game is over
-//THEN I can save my initials and my score
+# Features 
+1. Timer Intervals
+2. Stores high scores
+3. Start button to start
+4. Present questions
+5. Store responses
+6. Validate responses
+7. Add or subtract score
+8. Game over when all questions are answered or the timer reaches 0
+9. Save initials and score

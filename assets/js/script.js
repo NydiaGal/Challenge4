@@ -1,18 +1,17 @@
 var isWin = false;
 var timerCount = 15;
-var winCounter = 0;
-var lossCounter = 0;
-var currentQuestionIndex = 0;
-var timer;
+var winCount = 0;
+var lossCount = 0;
+var currentQuestion = 0;
 var score = 0;
 
 var questions = [
   { question: "What does CSS stand for?",
     options: ["Common Style Syntax", "Cosmetic Syntax Slides", "Cascading Style Sheets"]
     answer:["Cascading Style Sheets"]} 
-  { question: "GitHub is a _____?",
+    question: "GitHub is a _____?",
     options: ["Local repository", "Remote Repository"]
-    answer:["Remote Repository"]} 
+    answer:["Remote Repository"] 
   { question: "Who invented Bootstrap?",
     options: ["Mark Zuckerberg", "Elon Musk", "Mark Otto and Jacob Thornton"]
     answer:["Mark Otto and Jacob Thornton"]} 
@@ -53,4 +52,6 @@ function startTimer() {
     losegame();
   }} 1000;
 
-//how to validate answers
+//need to figure out how to validate answers
+//need to complete the tracker
+//I listend to recordings again and ran out of time to finish.
